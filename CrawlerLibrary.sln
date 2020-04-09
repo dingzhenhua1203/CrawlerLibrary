@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlerLibrary", "CrawlerLibrary\CrawlerLibrary.csproj", "{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrawlerLibrary", "CrawlerLibrary\CrawlerLibrary.csproj", "{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatPayDOMCrawler", "WechatPayDOMCrawler\WechatPayDOMCrawler.csproj", "{4BB168CE-09C1-4266-95BE-54A95B966016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "China_AreaCode_data", "China_AreaCode_data\China_AreaCode_data.csproj", "{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassBuilder", "ClassBuilder\ClassBuilder.csproj", "{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlerMingxing", "CrawlerMingxing\CrawlerMingxing.csproj", "{D3ED4A17-F0D0-4165-8330-E5EC4AD0F4C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DouYinData", "DouYinData\DouYinData.csproj", "{5262E480-D224-49EE-A9F5-AEDD8B735228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{4BB168CE-09C1-4266-95BE-54A95B966016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB168CE-09C1-4266-95BE-54A95B966016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB168CE-09C1-4266-95BE-54A95B966016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD41E6B-84EB-4BF4-9D59-B7244C3ED659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8D3B7A-DCCF-4BBB-9576-DD4F0BEAEDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3ED4A17-F0D0-4165-8330-E5EC4AD0F4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3ED4A17-F0D0-4165-8330-E5EC4AD0F4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3ED4A17-F0D0-4165-8330-E5EC4AD0F4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3ED4A17-F0D0-4165-8330-E5EC4AD0F4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5262E480-D224-49EE-A9F5-AEDD8B735228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5262E480-D224-49EE-A9F5-AEDD8B735228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5262E480-D224-49EE-A9F5-AEDD8B735228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5262E480-D224-49EE-A9F5-AEDD8B735228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
