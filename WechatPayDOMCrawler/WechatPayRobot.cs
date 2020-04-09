@@ -218,8 +218,10 @@ public class WechatPayV3Robot
 
         private string GetType(string str)
         {
-            if (str.Contains("String")|| str.Contains("string"))
+            if (str.Contains("String") || str.Contains("string"))
                 return "string";
+            else if (str.Contains("uint64"))
+                return "long";
             else if (str.Contains("Int") || str.Contains("int"))
                 return "int";
             else return str;
