@@ -113,6 +113,7 @@ public class WechatPayV3Robot
                         var tdnodes = elem.SelectNodes("./td");
                         if (tdnodes != null && tdnodes.Count == 5)
                         {
+                            var description = tdnodes[4].InnerText.Replace("\r\n", " ").Replace(" ", "");
                             //名称 = tdnodes[0].InnerText,
                             //    变量名 = tdnodes[1].InnerText,
                             //    类型 = tdnodes[2].InnerText,
@@ -122,7 +123,7 @@ public class WechatPayV3Robot
                             modelStr.Append($@"
                                 /// <summary>
                                         /// {tdnodes[0].InnerText}
-                                        /// {tdnodes[4].InnerText.Replace("\r\n", " ").Replace(" ","")}
+                                        /// {description.Replace("\t\t\t\t\t\t\t\t", "\r\n///")}
                                         /// </summary>
                                         public {GetType(tdnodes[2].InnerText)} {tdnodes[1].InnerText} {{ get; set; }}
                                 ");
@@ -149,7 +150,11 @@ public class WechatPayV3Robot
         }
 
 
-
+        /// <summary>
+        /// 微信支付实体爬取
+        /// </summary>
+        /// <param name="docUrl"></param>
+        /// <returns></returns>
         public string GetRequestModel2(string docUrl)
         {
             //docUrl = "https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_sl_api.php?chapter=9_1";
@@ -180,11 +185,11 @@ public class WechatPayV3Robot
                         var tdnodes = elem.SelectNodes("./td");
                         if (tdnodes != null && tdnodes.Count == 6)
                         {
-
+                            var description = tdnodes[5].InnerText.Replace("\r\n", " ").Replace(" ", "");
                             modelStr.Append($@"
                                 /// <summary>
                                         /// {tdnodes[0].InnerText}
-                                        /// {tdnodes[5].InnerText.Replace("\r\n", " ").Replace(" ", "")}
+                                        /// {description}
                                         /// </summary>
                                         public {GetType(tdnodes[3].InnerText)} {tdnodes[1].InnerText} {{ get; set; }}
                                 ");
