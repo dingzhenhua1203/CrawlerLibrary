@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlerLibrary", "CrawlerLibrary\CrawlerLibrary.csproj", "{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatPayDOMCrawler", "WechatPayDOMCrawler\WechatPayDOMCrawler.csproj", "{4BB168CE-09C1-4266-95BE-54A95B966016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31FFA03-1B4C-4D88-A24E-4F34AF5B705D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB168CE-09C1-4266-95BE-54A95B966016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB168CE-09C1-4266-95BE-54A95B966016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB168CE-09C1-4266-95BE-54A95B966016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB168CE-09C1-4266-95BE-54A95B966016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9DEFCC7-262C-429C-8A99-4442BC647357}
+	EndGlobalSection
+EndGlobal
